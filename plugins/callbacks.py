@@ -70,11 +70,11 @@ async def cb_handler(client, query):
             [
                 [
                     InlineKeyboardButton(
-                        "ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com")
+                        "ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://t.me/publicchannalin")
                 ],
                 [
-                    InlineKeyboardButton("BACK", callback_data="help_data"),
-                    InlineKeyboardButton("CLOSE", callback_data="close_data"),
+                    InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="help_data"),
+                    InlineKeyboardButton("ᴄʟᴏꜱᴇ", callback_data="close_data"),
                 ]                
             ]
         )
